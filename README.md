@@ -69,5 +69,5 @@ _**Requeriments**_
 * Explore webcomponents with svelte and hygen
 * Implement openlayers and svelte
 * Implement an instant self-hosted custom search engine
-* Self-host a content managment system1
+* Self-host a content managment system
 * Use automated tools like cypress, lighthouse-bot
