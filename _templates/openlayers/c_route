@@ -1,0 +1,13 @@
+---
+to: src/routes/ol.svelte
+---
+
+<script>
+	import Map from '../components/Map.svelte';
+</script>
+
+<svelte:head>
+	<title>Openlayers</title>
+</svelte:head>
+
+<Map/>
