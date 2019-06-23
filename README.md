@@ -4,11 +4,10 @@ You will need NPX
 ## Initialization
 `npx degit fchpr/boiler app && cd app`
 
-`npm install && npx hygen`
-
 `npx hygen init sapper`
 
-`hygen route new --method post --name auth`
+`npx hygen`
+
 
 Add all integrated features:
 
