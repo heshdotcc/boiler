@@ -1,25 +1,73 @@
-# svelte-hygen-openlayers
-implementation of reactive templates with maps and a git based content managment system
+_Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved..._ **Helen Keller**
+# Flow
+You will need NPX
+## Initialization
+`npx degit fchpr/boiler app && cd app`
 
-## project init
-``npx degit "sveltejs/sapper-template#rollup" .``
+`npm install && npx hygen`
 
-``npm i``
+`npx hygen init sapper`
 
-## [hygen](http://www.hygen.io/) templates
+`hygen route new --method post --name auth`
 
-`npx hygen sapper init`
+Add all integrated features:
+
+`npx hygen add all`
+
+Add individual feature:
+
+`npx hygen add netlify-cms`
+
+`npx hygen add openlayers`
+
+`npx hygen add preprocess`
+
+## Development
 
 `npx hygen eslint svelte`
 
-`npx hygen sapper page`
+`npx hygen create component`
 
-`npx hygen sapper component`
-
+`npx hygen create page`
+## Production
 `npx hygen shipit init`
 
-# thank you
-[netlify](http://netlify.com/)
-[openlayers](http://openlayers.org/)
-[svelte](http://svelte.dev/)
-[zeit](http://zeit.co/)
+# Brief
+## Idea
+A progresive web application with any of the following...
+
+_**Features**_
+ * ArcGIS, Geolocation API 
+ * Instant CSE
+ * Offline support
+ * Self-hosted CMS
+ 
+_**Requeriments**_
+ * Accesibility
+ * Auto-documentable
+ * Bundle footprint
+ * Internationalization
+ * Mobile first
+ * Performance budget
+ 
+ _**Softwares**_
+* Degit
+* Git submodules
+* Hygen
+* IndexedDB, GUN
+* Lighthouse
+* Netlify
+* Openlayers
+* Rollup
+* Sapper, Svelte
+* Shipit
+* Swagger
+* Zeit
+
+## Example gratia
+* Extend git sub-modules with degit and hygen
+* Explore webcomponents with svelte and hygen
+* Implement openlayers and svelte
+* Implement an instant self-hosted custom search engine
+* Self-host a content managment system1
+* Use automated tools like cypress, lighthouse-bot
