@@ -14,11 +14,11 @@ Add all integrated features:
 
 Add individual feature:
 
-`npx hygen netlify`
+`npx hygen sapper netlify`
 
-`npx hygen openlayers`
+`npx hygen sapper openlayers`
 
-`npx hygen preprocess`
+`npx hygen sapper preprocess`
 
 ## Development
 
