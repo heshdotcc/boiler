@@ -4,30 +4,29 @@ You will need NPX
 ## Initialization
 `npx degit fchpr/boiler app && cd app`
 
-`npx hygen init sapper`
+`npx hygen sapper init`
 
 `npx hygen`
 
-
 Add all integrated features:
 
-`npx hygen add all`
+`npx hygen all`
 
 Add individual feature:
 
-`npx hygen add netlify-cms`
+`npx hygen netlify`
 
-`npx hygen add openlayers`
+`npx hygen openlayers`
 
-`npx hygen add preprocess`
+`npx hygen preprocess`
 
 ## Development
 
 `npx hygen eslint svelte`
 
-`npx hygen create component`
+`npx hygen sapper component`
 
-`npx hygen create page`
+`npx hygen sapper page`
 ## Production
 `npx hygen shipit init`
 
