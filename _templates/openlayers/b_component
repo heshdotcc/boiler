@@ -5,9 +5,9 @@ to: src/components/Map.svelte
   import { onMount, afterUpdate } from 'svelte';
   onMount(async () => {
     let Map = (await import('ol/Map')).default,
-			View = (await import('ol/View')).default,
-			TileLayer = (await import('ol/layer/Tile')).default,
-			XYZ = (await import('ol/source/XYZ')).default;
+	View = (await import('ol/View')).default,
+	TileLayer = (await import('ol/layer/Tile')).default,
+	XYZ = (await import('ol/source/XYZ')).default;
     new Map({
       target: 'map',
       layers: [
