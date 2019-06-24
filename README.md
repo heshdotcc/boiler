@@ -14,20 +14,26 @@ View [hygen](https://github.com/jondot/hygen) actions:
 
 Select individual features...
 
-`npx hygen sapper netlify`
+`npx hygen netlify sapper`
 
-`npx hygen sapper openlayers`
+`npx hygen openlayers sapper`
 
-`npx hygen sapper preprocess`
+`npx hygen preprocess sapper`
 
-## Development
+Automate processes with...
 
 `npx hygen eslint svelte`
 
 `npx hygen sapper component`
 
 `npx hygen sapper page`
+
+## Development
+
+`npm run dev`
+
 ## Production
+
 `npx hygen shipit init`
 
 # Brief
