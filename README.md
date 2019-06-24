@@ -1,18 +1,18 @@
 _Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved..._ **Helen Keller**
 # Flow
-You will need NPX
+You will need [npx](https://github.com/zkat/npx)
 ## Initialization
+Start by a [degit](https://github.com/Rich-Harris/degit) and init of [Sapper](https://github.com/sveltejs/sapper-template) with [Rollup](https://rollupjs.org/) starter template...
+
 `npx degit fchpr/boiler app && cd app`
 
 `npx hygen sapper init`
 
+View [hygen](https://github.com/jondot/hygen) actions:
+
 `npx hygen`
 
-Add all integrated features:
-
-`npx hygen all`
-
-Add individual feature:
+Select individual features...
 
 `npx hygen sapper netlify`
 
@@ -49,17 +49,17 @@ _**Requeriments**_
  * Performance budget
  
  _**Softwares**_
-* Degit
+* [Degit](https://github.com/Rich-Harris/degit)
 * Git submodules
-* Hygen
+* [Hygen](https://github.com/jondot/hygen)
 * IndexedDB, GUN
 * Lighthouse
 * Netlify
-* Openlayers
-* Rollup
-* Sapper, Svelte
+* [Openlayers](http://openlayers.org/)
+* [Rollup](https://rollupjs.org/)
+* [Sapper](https://sapper.svelte.dev/), [Svelte](https://svelte.dev/)
 * Shipit
-* Swagger
+* [Swagger](https://swagger.io/specification/)
 * Zeit
 
 ## Example gratia
