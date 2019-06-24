@@ -14,11 +14,11 @@ View [hygen](https://github.com/jondot/hygen) actions:
 
 Select individual features...
 
-`npx hygen netlify sapper`
+`npx hygen sapper netlify`
 
-`npx hygen openlayers sapper`
+`npx hygen sapper openlayers`
 
-`npx hygen preprocess sapper`
+`npx hygen sapper preprocess`
 
 Automate processes with...
 
