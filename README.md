@@ -44,7 +44,7 @@ _**Features**_
  * ArcGIS, Geolocation API 
  * Instant CSE
  * Offline support
- * Self-hosted CMS
+ * [Self-hosted CMS](https://github.com/fchpr/boiler/wiki/Self-hosted-CMS)
  
 _**Requeriments**_
  * Accesibility
