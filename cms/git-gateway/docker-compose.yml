@@ -1,0 +1,19 @@
+version: '3'
+services:
+        git-gateway:
+                container_name: leedor.vcs
+                build:
+                        context: https://github.com/netlify/git-gateway.git
+                        dockerfile: Dockerfile
+                environment:
+                        - DATABASE_URL
+                        - GITGATEWAY_API_HOST
+                        - GITGATEWAY_DB_DRIVER
+                        - GITGATEWAY_GITLAB_ACCESS_TOKEN
+                        - GITGATEWAY_GITLAB_ACCESS_TOKEN_TYPE
+                        - GITGATEWAY_GITLAB_REPO
+                        - GITGATEWAY_JWT_SECRET
+                        - GITGATEWAY_ROLES
+                        - PORT
+                ports:
+                        - "9999:9999"
