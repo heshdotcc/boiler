@@ -1,7 +1,7 @@
 version: '3'
 services:
         git-gateway:
-                container_name: leedor.vcs
+                container_name: boiler/git-gateway
                 build:
                         context: https://github.com/netlify/git-gateway.git
                         dockerfile: Dockerfile
