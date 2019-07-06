@@ -1,0 +1,11 @@
+version: '3'
+services:
+        nginx:
+                container_name: boiler/nginx
+                image: nginx
+                ports:
+                        - 80:80
+                volumes:
+                        - ./__sapper__/export:/usr/share/nginx/html:ro
+                        - ./nginx/nginx.conf:/etc/nginx:ro 
+ 
