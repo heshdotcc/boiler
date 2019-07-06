@@ -1,6 +1,0 @@
----
-to: src/components/Nav.svelte
-inject: true
-after: "inject:nav:entry"
----
-<li style='float:right'><a rel=prefetch class='{segment === "ol" ? "selected" : ""}' href='ol'>openlayers</a></li>

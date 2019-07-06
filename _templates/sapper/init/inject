@@ -1,6 +1,0 @@
----
-inject: true
-to: src/components/Nav.svelte
-before: </ul>
----
-<!-- inject:nav:entry -->
