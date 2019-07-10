@@ -1,11 +1,12 @@
 version: '3'
 services:
   database:
-    container_name: boiler_mariadb
-    env_file: .env.mariadb
-    image: mariadb
+    container_name: boiler_postgres
+    env_file: .env.postgres
+    image: postgres
     volumes:
-      - "./mysql:/var/lib/mysql"
+      - "./postgresql:/var/lib/postgresql/data/pgdata:rw"
+      - "./init.sql:/docker-entrypoint-initdb.d:ro"
       - "/etc/localtime:/etc/localtime:ro"
   git-gateway:
     build:
