@@ -5,8 +5,8 @@ services:
     env_file: .env.postgres
     image: postgres
     volumes:
-      - "./postgresql:/var/lib/postgresql/data/pgdata:rw"
-      - "./init.sql:/docker-entrypoint-initdb.d:ro"
+      - "./postgresql:/var/lib/postgresql/data:rw"
+      - "./gotrue-db-setup.psql:/docker-entrypoint-initdb.d/gotrue-db-setup.psql:ro"
       - "/etc/localtime:/etc/localtime:ro"
   git-gateway:
     build:
