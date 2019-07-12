@@ -1,0 +1,3 @@
+---
+sh: cp -r _templates/sapper/netlify/src/template.html src && cp -r _templates/sapper/init/static/admin static
+---
