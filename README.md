@@ -1,4 +1,4 @@
-_Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved..._ **Helen Keller**
+_Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved..._ **[Helen Keller](https://en.wikipedia.org/wiki/Helen_Keller)**
 # Flow
 You will need [docker](https://www.docker.com/), [docker-compose](https://docs.docker.com/compose/overview/), and [npx](https://github.com/zkat/npx).
 ## Initialization
@@ -40,6 +40,10 @@ In order to self-host the site [ngnix](http://nginx.org/) will need exported fil
 Now can be run the file that will compose all needed services:
 
 `docker-compose up -d`
+
+Debug server code with [ndb](https://github.com/GoogleChromeLabs/ndb) if needed...
+
+`npx ndb npm run dev`
 
 ## Production
 
