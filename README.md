@@ -11,18 +11,17 @@ _**Features**_
  * [Self-hosted CMS](https://github.com/fchpr/boiler/wiki/Self-hosted-CMS)
  
 _**Requeriments**_
- * Accesibility
- * CI/CD
- * i18n
- * Lighthouse bot
- * Mobile first
- * Self-documented
- 
+ * [Accesibility](https://en.wikipedia.org/wiki/Web_accessibility)
+ * [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+ * [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+ * [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+ * [Mobile-first design](https://en.wikipedia.org/wiki/Responsive_web_design)
+
  _**Softwares**_
 * [Degit](https://github.com/Rich-Harris/degit)
 * Git submodules
 * [Hygen](https://github.com/jondot/hygen)
-* IndexedDB, GUN
+* IndexedDB, [GUN](https://github.com/amark/gun)
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 * [NginX](http://nginx.org/)
 * [Netlify](http://netlify.com/)
@@ -32,6 +31,7 @@ _**Requeriments**_
 * Shipit
 * [Swagger](https://swagger.io/specification/)
 * [Zeit](http://zeit.co/)
+
 # Flow
 You will need [docker](https://www.docker.com/), [docker-compose](https://docs.docker.com/compose/overview/), and [npx](https://github.com/zkat/npx).
 ## Initialization
