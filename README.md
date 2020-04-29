@@ -85,7 +85,7 @@ Debug server code with [ndb](https://github.com/GoogleChromeLabs/ndb) if needed.
 ## Example gratia
 * Extend git sub-modules with degit and hygen
 * Explore webcomponents with svelte and hygen
-* Implement openlayers and svelte
+* Integrate openlayers and svelte within sapper
 * Implement an instant self-hosted custom search engine
 * Self-host a content managment system
 * Use automated tools like cypress, lighthouse-bot
